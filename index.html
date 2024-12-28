@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mahalaxmi Imports N Exports</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Mahalaxmi Imports N Exports" name="keywords">
+    <meta content="Mahalaxmi Imports N Exports" name="description">
+
+    <!-- Favicon -->
+    <link href="image/logo/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .carousel_image>img{
+            filter: brightness(0.5);
+        }
+        .cards_animation{
+    transition: 0.3s;
+    border: 1px solid transparent;
+   transform: translateY(0px);
+
+}
+ 
+.cards_animation:hover{
+   /* transform: translateY(-20px) ; */
+   
+}
+.pro_box{
+    height: 250px;
+    width: 100%;
+    border: 2px solid red;
+    overflow: hidden;
+}
+.pro_box>img{
+    transition: 0.3s;
+    transform: scale(1);
+}
+.cards_animation:hover .pro_box>img{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-4  px-5 text-start text-white">
+                <div class="h-100 d-inline-flex text-white align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-white me-2"></small>
+                    <small> Maharashtra , India</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="fa fa-phone-alt  text-white me-2"></small>
+                    <small>+91  7744850765</small>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="h-100 d-inline-flex align-items-center me-4 ">
+                 
+                    <marquee behavior="" direction="">   <small class="  text-white me-2">At <u>Mahalaxmi Imports N Exports</u>, we are committed to sourcing the finest products from trusted suppliers. Our mission is to ensure seamless, reliable, and timely deliveries to clients across India, South Asia, the USA, and the Middle East. We prioritize customer satisfaction and long-term partnerships by upholding the highest standards of quality and service.
+
+                    </small></marquee>
+                 </div>
+            </div>
+            <div class="col-lg-2   px-5 text-end">
+                
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link text-white " href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 py-2">
+        <a href="index.html" class="navbar-brand  px-4 px-lg-5">
+          <img src="image/logo/logo.jpg" height="70px" width="130px" alt="Mahalaxmi Imports N Exports">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index." class="nav-item nav-link  ">Home</a>
+                <a href="about." class="nav-item nav-link">About</a>
+                <a href="service." class="nav-item nav-link">Service</a>
+ 
+                <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div> -->
+                <a href="contact." class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Enquiry Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative carousel_image" data-dot="<img src='image/banner/1.jpg'>">
+                <img class="img-fluid" src="image/banner/1.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown animate__animated  animate__rotateInUpLeft">  Mahalaxmi Imports N Exports</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3 animate__animated  animate__rotateInUpLeft">Your Trusted Partner in Global Trade</p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative carousel_image" data-dot="<img src='image/banner/2.jpg'>">
+                <img class="img-fluid" src="image/banner/2.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown animate__animated  animate__rotateInUpLeft">Delivering Excellence with Every Transaction</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3 animate__animated  animate__rotateInUpLeft">At Mahalaxmi Imports N Exports, we are committed to sourcing the finest products from trusted suppliers. </p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative carousel_image" data-dot="<img src='image/banner/3.jpg'>">
+                <img class="img-fluid" src="image/banner/3.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Sourcing the Best for You</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">At Mahalaxmi Imports N Exports, we specialize in the export and import of a diverse range of premium agricultural products.</p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn text-center" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-users text-white"></i>
+                        </div>
+                        <div class="d-flex">
+                            <h1 class="mb-0" data-toggle="counter-up">130</h1>
+                            <h1 class="mb-0" >+K</h1>
+                        </div>
+                        
+                    </div>
+                    <h5 class="mb-3">Happy clients</h5>
+                     
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn text-center" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="d-flex">
+                            <h1 class="mb-0" data-toggle="counter-up">133</h1>
+                            <h1 class="mb-0" >MT </h1>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">Production
+                        Annually</h5>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn text-center" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-award text-white"></i>
+                        </div>
+                        <div class="d-flex">
+                            <h1 class="mb-0" data-toggle="counter-up">3</h1>
+                            <h1 class="mb-0" >+ </h1>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">Countries we Deal in</h5>
+                     
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn text-center" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-users-cog text-white"></i>
+                        </div>
+                        <div class="d-flex">
+                            <h1 class="mb-0" data-toggle="counter-up">5</h1>
+                            <h1 class="mb-0" >+Years </h1>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">Experience</h5>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 align-self-center  ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute   " height="auto" width="100%" src="image/about_us.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">About Us</h6>
+                        <h1 class="mb-4">5+ Years of Expertise in Global Trade</h1>
+                        <p class="jus">Founded in 2024 and based in Akola, Maharashtra, Mahalaxmi Imports N Exports has quickly become a leading name in the international trade sector. With 5 years of experience in trading high-quality goods, we have built a reputation for reliability, integrity, and excellence.  </p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>R&D Facilities</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Testing Facilities</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Customized Packaging Facility</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+    <!-- products -->
+
+    <div class="container  " style="margin-top: 6rem;margin-bottom:6rem">
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+            <h1 class="display-5 mb-0">Our Products</h1>
+            <hr class="w-25 mx-auto bg-primary">
+        </div>
+        <div class="row">
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/Dried Red Chillies.jpg    " height="250px" width="100%" style="object-fit:cover"alt="Dried Red Chillies">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Dried Red Chillies </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/Turmeric Fingers.jpeg" height="250px" width="100%" style="object-fit:cover"alt="Turmeric Fingers">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Turmeric Fingers </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/Turmeric powder.jpg    " height="250px" width="100%" style="object-fit:cover"alt="anardana jpg image">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Turmeric powder </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/, Dried Coconuts.jpg    " height="250px" width="100%" style="object-fit:cover"alt="cloves jpg image">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger">  Dried Coconuts </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/Bananas.jpg    " height="250px" width="100%" style="object-fit:cover"alt="cardamom jpg image">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Bananas </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/rice.jpg    " height="250px" width="100%" style="object-fit:cover"alt="Product jpg image">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Rice </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/Garlic.jpg    " height="250px" width="100%" style="object-fit:cover"alt="Product jpg 4">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Garlic </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+                            <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation "  data-aos="zoom-in-down">
+                    <div class="cat_inner  border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
+                        <div class="cat_icon pro_box border border-4 border-dark"><img src="image/product/Garlic_powder.jpg    " height="250px" width="100%" style="object-fit:cover"alt="Product jpg 5">
+                        </div>
+                        <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> Garlic Powder </div>
+                    </div>
+                    <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry now</a>
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Service Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Our Services</h6>
+                <h1 class="mb-4">We Are Pioneers In The World Of Renewable Energy</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Solar Panels</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Wind Turbines</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Hydropower Plants</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Solar Panels</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Wind Turbines</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Hydropower Plants</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <h6 class="text-primary">Why Partner with Us?</h6>
+                        <h1 class="mb-4">Benefits of Choosing Mahalaxmi Imports N Exports</h1>
+                        <p class="mb-4 pb-2">At Mahalaxmi Imports N Exports, we offer more than just quality products; we provide comprehensive solutions designed to support your business and ensure success. Here’s why choosing us as your trusted partner in global trade will bring you numerous advantages:
+
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Quality</p>
+                                        <h5 class="mb-0">Premium Quality Products</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Expert</p>
+                                        <h5 class="mb-0">Reliable & Timely Deliveries</h5>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="col-12">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Process</p>
+                                        <h5 class="mb-0">Seamless Import & Export Process</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="image/choose_us.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Our Projects</h6>
+                <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Solar Panels</li>
+                        <li class="mx-2" data-filter=".second">Wind Turbines</li>
+                        <li class="mx-2" data-filter=".third">Hydropower Plants</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Solar Panels</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Wind Turbines</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Hydropower Plants</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Solar Panels</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Wind Turbines</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Hydropower Plants</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light  overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 align-self-center ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute   "   src="image/11710-removebg-preview.png" style="object-fit:  ; transform: rotateY(180deg);" height="auto" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Contact Us</h6>
+                        <h1 class="mb-4">Get A Free Quote</h1>
+                        <p class="mb-4 pb-2">We would love to hear from you! Whether you have inquiries about our products, services, or any other aspect of our business, our team is here to assist you. Reach out to us today for personalized solutions tailored to your needs.
+
+                        </p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Team Member</h6>
+                <h1 class="mb-4">Experienced Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-1.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-2.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-3.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Testimonial</h6>
+                <h1 class="mb-4">What Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p><q>Mahalaxmi Imports N Exports has been an incredible partner for our business. Their products are of the highest quality, and we’ve always received timely deliveries. Their team goes above and beyond to ensure smooth transactions. We couldn't ask for a better trading partner!</q></p>
+                        <h5 class="mb-1">Ravi Kumar </h5>
+                        <span class="fst-italic"> Importer, South Asia</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p><q>We’ve been sourcing turmeric and garlic from Mahalaxmi Imports N Exports for over a year now, and we couldn’t be more pleased with the results. The quality of their products is top-notch, and their customer service is outstanding. We look forward to continuing our successful partnership!</q></p>
+                        <h5 class="mb-1">Nina Patel</h5>
+                        <span class="fst-italic">Exporter, USA</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p><q>Working with Mahalaxmi Imports N Exports has been an absolute pleasure. The quality of their dried red chillies and coconut products is unmatched. They deliver on time, every time, and always provide excellent customer support. We consider them a trusted partner in our business.</q></p>
+                        <h5 class="mb-1"> Shivani Deshmukh</h5>
+                        <span class="fst-italic">Distributor, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #000000;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Akola , Maharashtra  , India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7744850765</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>mimpex@mine.org.in</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Product Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-  rounded" src="image/product/, Dried Coconuts.jpg" style="object-fit: cover;" height="50px" width="70px"  alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-  rounded" src="image/product/Bananas.jpg" style="object-fit: cover;" height="50px" width="70px"  alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-  rounded" src="image/product/Dried Red Chillies.jpg" style="object-fit: cover;" height="50px" width="70px"  alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-  rounded" src="image/product/Garlic_powder.jpg" style="object-fit: cover;" height="50px" width="70px"  alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-  rounded" src="image/product/rice.jpg" alt="" style="object-fit: cover;" height="50px" width="70px" >
+                        </div>
+                        <div class="col-4">
+                            <img class="img-  rounded" src="image/product/Turmeric powder.jpg" style="object-fit: cover;" height="50px" width="70px"  alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <p>Founded in 2024 and based in Akola, Maharashtra, Mahalaxmi Imports N Exports has quickly become a leading name in the international trade sector.... </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#"> Mahalaxmi Imports N Exports</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://web2export.com">web2export.com</a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
