@@ -3397,8 +3397,8 @@ fieldset:disabled .btn {
 
 .btn-dark {
     color: #fff;
-    background-color: #1A2A36;
-    border-color: #1A2A36
+    background-color: #0b3468;
+    border-color: #0b3468
 }
 
 .btn-dark:hover {
@@ -8304,7 +8304,7 @@ fieldset:disabled .btn {
 }
 
 .text-danger {
-    color: #0074bd !important
+    color: black !important
 }
 
 .text-light {
